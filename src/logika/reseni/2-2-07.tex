@@ -1,0 +1,12 @@
+\begin{enumerate}[1)]
+  \item $\forall x \varphi (x,x) \vdash \forall x \varphi (x,x)$ (predpoklad)
+  \item $\vdash \forall x \varphi (x,x) \rightarrow \varphi (y,y)$ (axiom substituce)
+  \item $\forall x \varphi (x,x) \vdash \varphi (y,y)$ (MP)
+  \item $\forall x \varphi (x,x) \vdash \forall y \varphi (y,y)$ (generalizace)
+  \item $\vdash \forall x \varphi (x,x) \rightarrow \forall y \varphi (y,y)$
+(veta o dedukci)
+  \item $\vdash \forall y \varphi (y,y) \rightarrow (\forall x \forall y \varphi(x,y) \rightarrow
+          \forall y \varphi (y,y))$ (A1)
+  \item $\vdash \forall x \varphi (x,x) \rightarrow (\forall x \forall y \varphi(x,y) \rightarrow
+          \forall y \varphi (y,y))$ (složení implikací)
+\end{enumerate}
