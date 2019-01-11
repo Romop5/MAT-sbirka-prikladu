@@ -1,0 +1,10 @@
+Pre každé dva prvky $a, b$ univerza platí, že existuje prvok $c$, ktorý je väčší ako prvky $a,b$ a
+zároveň je z takýchto prvkov najmenší (najmenšia horná uzávora), teda všetky prvky $d$, ktoré sú
+tiež väčšie ako $a,b$ sú buď prvok $c$ alebo musia byť porovnateľné s prvkom $c$.
+\begin{align*}
+\forall a \forall b \exists c (a < c \land b < c \land  \forall d (a < d \land b < d \land
+                \rightarrow (c = d \lor c < d )))
+\end{align*}
+
+Ak by $d$ nebol v prípade nerovnosti porovnateľný, potom by prvky $a,b$ nemali najmenšiu
+(jedinečnú) hornú uzáveru.
